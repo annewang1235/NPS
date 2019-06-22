@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+		title Opening Page for NPS Website
+
+	body
+		.ripple-background
+			p Please enter in a state code below!
+
+			.searchBox
+				form(action="/" method="POST")
+					.stateInput
+						input(class="stateInput" type="text" name="state" placeholder="")
+					
+					.button
+						input(type="submit" class="button" value="Submit")
+
+			p {{ errorMessage }}
+	 
+			.circle.xxlarge.shade1
+			.circle.xlarge.shade2
+			.circle.large.shade3
+			.circle.mediun.shade4
+			.circle.small.shade5
+
+
+		link(rel="stylesheet", type="text/css", href="{{url_for('static',filename='homepage.css') }}")
+

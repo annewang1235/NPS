@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Categories</title>
+</head>
+<body>
+
+	<h1>Click on one of the categories for more info about {{state}}'s nature!</h1>
+
+	<div class="grid-container">
+		<form action="/categories" method="post"><input type="submit" class="grid-item" id="parks" name="clicked_button" value="parks"></form>
+		
+		<form action="/categories" method="post"><input type="submit" class="grid-item" id="campgrounds" name="clicked_button" value="campgrounds"></form>
+
+		<form action="/categories" method="post"><input type="submit" class="grid-item" id="alerts" name="clicked_button" value="alerts"></form>
+
+		<form action="/categories" method="post"><input type="submit" class="grid-item" id="news" name="clicked_button" value="news"></form>
+		
+		<form action="/categories" method="post"><input type="submit" class="grid-item" id="visitorcenters" name="clicked_button" value="visitor centers"></form>
+
+
+	</div>
+
+	<link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='categories.css') }}"> 
+	<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie|Scheherazade&display=swap" rel="stylesheet">
+
+
+</body>
+</html>

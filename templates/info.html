@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='park.css') }}">
+
+	<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie|Scheherazade&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	{%block body%}{% endblock %}
+
+	{%for i in range(0, length)%}
+		<div id="first_attr"><li>{{ list1[i] }}</li></div>
+
+
+		<div id="second_attr"><li>{{info2}}: {{ list2[i] }}</li></div>
+
+
+		<div id="third_attr"><li>
+								{% if  list3[i] != "" %}
+									{{info3}}: {{ list3[i] }}
+								{% else %}
+									{{info3}}: None
+								{% endif %}
+
+							</li></div>
+		<br><br>
+	{%endfor%}
+</body>
