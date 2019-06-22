@@ -12,6 +12,8 @@ my work - I needed to figure out how the json was being rendered and returned to
 Along the way, I learned about HTML preprocessors. I learned how to use pug.js, which allowed me to write files that were much more readable 
 and intuitive than pure HTML files (no tags in .pug files). 
 
+I was also able to deploy my website (https://annewang-nps.herokuapp.com/ --> please check it out!) using Heroku. Although deploying a website is a completely new experience for me, Heroku, along with friends who had more experience than myself with deployment, Google, and youtube videos that were specific to using Heroku to deploy Flask applications, made the deployment process fairly simple and intuitive. 
+
 This project brought on a lot of new experiences for me and allowed me to explore the bridge between front-end and back-end development of
 a website.
 
@@ -22,6 +24,8 @@ a website.
 - how to make API calls through Flask
 - HTML/CSS
 - HTML preprocessors (pug.js)
+- website deployment through Heroku
+- Github commands (pushing onto new repository, changing files and recommiting)
 
 ---------------------------------
 # Future Improvements:
