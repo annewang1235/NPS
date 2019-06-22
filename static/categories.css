@@ -1,0 +1,67 @@
+body
+{
+	background-image: url("forest.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1
+{
+	text-align: center;
+	margin-top: 3%;
+	font-size: 225%;
+}
+
+.grid-container
+{
+	display: grid;
+	grid-template-columns: auto;
+
+	padding: 10%;
+}
+
+.grid-item 
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 2%;
+  text-align: center;
+
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 300%;
+
+
+  border-radius: 100px;
+}
+
+.grid-item:hover
+{ 
+  	color: black;
+}
+
+#parks:hover
+{
+	background-color: #ADFF2F; 
+}
+
+#campgrounds:hover
+{
+	background-color: #7FFF00; 
+}
+
+#alerts:hover
+{
+	background-color: #7CFC00; 
+}
+
+#news:hover
+{
+	background-color: #00FF00; 
+}
+
+#visitorcenters:hover
+{
+	background-color: #32CD32;
+}
